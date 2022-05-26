@@ -1,0 +1,1305 @@
+/*-----------------UNIVERSAL------------------*/
+*{
+    box-sizing: border-box;
+}
+ 
+html{
+    scroll-behavior: smooth;
+    background-color: #09BB00;
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(6, 255, 55, 0.328),rgba(2, 2, 192, 0.419)
+    )
+    ,url("media/images/textura.jpg");
+}
+ 
+body{
+    margin: 0;    
+    font-family: 'Roboto', sans-serif;
+   
+ 
+}
+ 
+ 
+ 
+h1{
+    font-size: 3em;
+ 
+}
+ 
+h2{
+    font-size: 2em;
+    margin: 10px;
+ 
+}
+ 
+h3{
+    font-size: 2em;
+}
+ 
+p, ul{
+    font-size: 1.2em;
+}
+ 
+ 
+/*NAV BAR*/
+.logo{
+    width: 50px;
+    margin: 0;
+   
+}
+ 
+/*--------------------HERO--------------------*/
+.container{
+   
+    margin: auto;
+}
+ 
+header{
+    background-color:#E50006;
+    z-index: 100;
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(98, 0, 0, 0.328),rgba(70, 0, 0, 0.419)
+    )
+    ,url("media/images/textura-roja.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+ 
+}
+ 
+ 
+ 
+header .container{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    z-index: 100;
+   
+ 
+}
+ 
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+    z-index: 100;
+}
+ 
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFDD0F;
+    z-index: 100;
+}
+ 
+header a:hover{
+    color: rgb(255, 255, 255);
+    transform: translateY(-3px) scale(1.05);
+    transition: all 0.3s;
+    z-index: 100;
+}
+ 
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    font-size: 1.7em;
+    text-shadow: 7px 10px 6px rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 10, 0.1),rgba(0, 0, 10, 0.1)
+    )
+    ,url("media/images/sinergismo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+}
+ 
+#hero h1:hover{
+    color: rgb(255, 255, 255);
+    transform:  scale(1.05);
+    transition: all 0.3s;
+    position: static;
+}
+
+#hero .description{
+    background-color: rgba(0, 0, 0, 0.601);
+    position: absolute;
+    
+    right: 0;
+    bottom: -330px;
+    font-size: .8em;
+    padding: 0 20px 0 20px;
+}
+ 
+
+#hero_members{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    font-size: 1.3em;
+    text-shadow: 7px 10px 6px rgba(0, 0, 0, 0.8);
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(
+        90deg,
+ 
+        rgba(0, 0, 0, 0.915),rgba(0, 0, 10, 0.413)
+    )
+    ,url("media/images/team.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+}
+ 
+#hero_members h1:hover{
+    color: rgb(255, 255, 255);
+    transform:  scale(1.05);
+    transition: all 0.3s;
+    position: static;
+}
+
+#hero_members .description{
+    background-color: rgba(0, 0, 0, 0.601);
+    position: absolute;
+    
+    right: 0;
+    bottom: -330px;
+    font-size: .8em;
+    padding: 0 20px 0 20px;
+}
+
+
+
+#about{
+    padding: 100px 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+
+ 
+#valores{
+    /*display: grid;
+    grid-template-columns: repeat(2,1fr);*/
+    background-color: #3B0D9E;
+    box-shadow: 0px -5px 10px #22085b85;
+   
+}
+.title{
+    display: flex;
+    justify-content: center;
+   
+}
+#mision{
+    /*position: absolute;*/
+    /*padding: 100px 20px;*/
+    background-color: #3B0D9E;
+    color: aliceblue;
+    background-image: linear-gradient(
+        90deg,
+ 
+        #3b0d9ecb,#3b0d9ecb
+    )
+    ,url("media/images/fondo-mision.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 370px;
+    margin: 0px;
+    width: 100%;
+    padding: 0px 30px;
+    overflow: auto
+   
+   
+   
+}
+
+#mision .color-2{
+    
+    margin-bottom: 60px;
+}
+
+#vision .color-2{
+    
+    margin-bottom: 60px;
+}
+#vision{
+   /* position: absolute;*/
+    /*padding: 100px 20px;*/
+    background-color: #3B0D9E;
+    color: aliceblue;
+    background-image: linear-gradient(
+        90deg,
+ 
+        #3b0d9ecb,#3b0d9ecb
+    )
+    ,url("media/images/fondo-vision.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 300px;
+    width: 100%;
+    margin-top: 0px;
+    /*margin-top: 26.5px;*/
+    padding: 0px 30px;
+    overflow: auto
+}
+ 
+#objectives{
+    color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    box-shadow: 0px -5px 10px #09bb004d;
+    
+   
+}
+#objectives h2{
+    text-align: center;
+    padding: 10px;
+}
+
+#objectives .color-1{
+        
+    padding: 10px 50px;
+
+}
+ 
+#work-strategies{
+    padding: 10px 20px;
+    background-color: #3B0D9E;
+    color: aliceblue;
+    box-shadow: 0px -5px 10px #22085b85;
+    background-image: linear-gradient(
+        90deg,
+ 
+        #3b0d9ec9,#3b0d9ecb
+    )
+    ,url("media/images/cover.jpg");
+           
+   
+}
+ 
+.cartas{
+    /*display: flex;
+   
+    justify-content: space-between;*/
+}
+.cartas:hover{
+   
+}
+ 
+.strategie{
+    background-color: #09BB00;
+    border-radius: 15px;
+    padding: 20px 20px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+   
+ 
+   
+   
+}
+.strategie:hover{
+    /*transform:  scale(1.1);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    transition: 0.5s linear;
+    filter: none;*/
+}
+#strategie-1{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/gis-mapping.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 250px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-2{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie-2GIS-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 250px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-3{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 250px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-4{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909e4
+    )
+    ,url("media/images/strategie4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 250px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-5{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie-5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 250px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#valuepropositions{
+    padding-top: 10px;    
+    color: aliceblue;
+     
+       
+}
+ 
+#valuepropositions.container{
+    padding-top: 10px;
+    /*background-color: red;*/
+    border-radius: 15px;
+    height: 250px;
+    margin-top: 10px;
+    width:90%;
+   
+}
+.slider{
+    background-color: #09BB00;
+    border-radius:15px ;
+   
+   
+   
+}
+ 
+#valuepropositions ul{
+    list-style: none;
+    width: inherit;
+    height: inherit;
+}
+ 
+ul.slider{
+   
+    position: relative;
+    width: 800px;
+    height: inherit;
+   
+}
+ 
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    padding: 50px;
+    border-radius: 15px;
+    transition:opacity 1s ;
+   
+   
+}
+ 
+ul.slider li.propositions{
+    /*width: 100%;
+    height: 100%;*/
+}
+ 
+ul.slider li:first-child{
+    opacity: 1;
+}
+ 
+ul.slider li:target{
+ 
+    opacity: 1;
+   
+}
+#slide-1{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/slide-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto
+}
+ 
+#slide-2{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/slide-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto
+}
+ 
+#slide-3{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/slide-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto
+}
+ 
+#slide-4{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie-5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto
+}
+ 
+#menu{
+    padding: 10px;
+    text-align: center;
+    margin-top: 90px;
+ 
+}
+ 
+#menu li{
+ 
+    display: inline-block;
+    text-align: center;
+}
+ 
+#menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color:#3b0d9e9a;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+ 
+#menu ul{
+    list-style: none;
+}
+ 
+#menu li:hover{
+   
+    transform:  scale(1.205);
+    transition: all 0.3s;
+    position: static;
+}
+ 
+#menu li a:active{
+    background-color:#5a1ae3;
+    transition: all 1s;
+}
+ 
+ 
+ 
+ 
+#located{
+    padding: 20px 20px;
+    background-color: #3B0D9E;
+    color: aliceblue;
+    background-image: linear-gradient(
+        90deg,
+ 
+        #3b0d9ec9,#3b0d9ecb
+    )
+    ,url("media/images/university.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    box-shadow: 0px -5px 10px #22085b85;
+   
+   
+}
+ 
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    height: 100%;
+   
+}
+iframe{
+    border-radius: 15px;
+}
+.texto{
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.contact{
+    align-items: center;
+    align-content: center center;
+    justify-content: center;
+ 
+ 
+}
+ 
+:root{
+    --fb: #3b5999;
+    --ig: #f31515;
+    --lk: #0077b5;
+    --wp: #0b2d;
+}
+ 
+.redes_container{
+    display: inline;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.redes_container ul li{
+    display: inline-block;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+ 
+ 
+.redes_container ul li a{
+    display: block;
+    padding: 0 10px;
+    background: rgb(189, 0, 0);
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+    box-shadow: 0 3px 5px 0px rgba(0,0, 0, 0.2);
+    transition: 0.2s;
+}
+ 
+/* .redes_container ul:hover a{
+filter: blur(2px);
+} */
+ 
+.redes_container ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    filter: none;
+}
+ 
+.redes_container ul li .fb:hover{
+    background: var(--fb);
+}
+ 
+.redes_container ul li .ig:hover{
+    background: var(--ig);
+}
+ 
+.redes_container ul li .ln:hover{
+    background: var(--lk);
+}
+ 
+.redes_container ul li .wp:hover{
+    background: var(--wp);
+}
+ 
+.contacto{
+    text-align: center;
+    color: rgb(189, 0, 0);
+    text-shadow: 2px 5px 10px  rgba(255, 248, 40, 0.234);
+    background-color:rgba(189, 0, 0);
+    height: 0px;
+    padding: 0.15px;
+    margin: 0 px 0px;
+ 
+}
+ 
+ul{
+    /*margin: 0px;
+    padding: 0px;*/
+    padding-inline-start: 0px;
+}
+ 
+footer{
+ 
+   
+    padding: 100px 20px;
+    background-color: rgb(255, 248, 40);
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 10vh;
+    font-size: 1.7em;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.5);
+    color: rgba(255, 248, 40);
+    background-image: linear-gradient(
+        90deg,
+        rgba(98, 0, 0, 0.328),rgba(70, 0, 0, 0.419)
+       
+    )
+    ,url("media/images/textura-roja.jpg");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+ 
+footer p{
+    margin: 0;
+    color: blueviolet;
+    padding: 12px;
+}
+ 
+footer .container{
+    height: 500px !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+
+@media (min-width: 1115px){
+    header{
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        
+
+
+        background-color:#E50006;
+        z-index: 100;
+        background-image: linear-gradient(
+        90deg,
+ 
+        rgba(98, 0, 0, 0.328),rgba(70, 0, 0, 0.419)
+    )
+    ,url("media/images/textura-roja.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    
+    
+    
+
+    
+    }
+    
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-top: 0px;
+        padding-right: 20px;
+        padding-left: 25px;
+        opacity: 100%;
+    }
+    header .logo{
+        padding: 0px;
+        margin: 0px;
+        width: 50px;
+    }
+    header nav .logo{
+        width: 30px;
+        padding-top: 5px;
+    }
+    header nav a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5px;
+        margin-top: -20px;
+        margin-right: 10px;
+        
+    }
+
+    #hero .description{
+        background-color: rgba(0, 0, 0, 0.601);
+        position: absolute;
+        
+        right: 0;
+        bottom: 40px;
+        font-size: .8em;
+        padding: 0 20px 0 20px;
+    }
+
+    #valores{
+        position: relative;
+    }
+    #mision{
+        background-color: #3B0D9E;
+        color: aliceblue;
+        background-image: linear-gradient(
+            90deg,
+    
+            #3b0d9ecb,#3b0d9ecb
+        )
+        ,url("media/images/fondo-mision.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        text-align: center;
+        position: static;
+        height: 300px;
+        margin: 0px;
+        width: 50%;
+        padding: 0px 30px;
+        overflow: auto;
+    }
+    
+    #vision{
+        background-color: #3B0D9E;
+        color: aliceblue;
+        background-image: linear-gradient(
+            90deg,
+    
+            #3b0d9ecb,#3b0d9ecb
+        )
+        ,url("media/images/fondo-mision.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        text-align: center;
+        position: absolute;
+        right: 0px;
+        height: 300px;
+        margin: -300px;
+        width: 50%;
+        padding: 0px 30px;
+        overflow: auto;
+        margin-right: 0px;
+
+    }
+
+   .cartas{
+       
+       display: flex;
+       justify-content: space-between;
+   }
+
+   #strategie-1{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/gis-mapping.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-2{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie-2GIS-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-3{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-4{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909e4
+    )
+    ,url("media/images/strategie4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+ 
+#strategie-5{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie-5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    position: static;
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;;
+    width: 100%;
+    margin-top: 26.5px;
+    overflow: auto
+}
+
+.strategie:hover{
+    transform:  scale(1.1);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.4);
+    transition: 0.2s linear;
+    filter: none;
+}
+
+#objectives{
+    color: aliceblue;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    box-shadow: 0px -5px 10px #09bb004d;
+   
+}
+#objectives h2{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+
+
+#valuepropositions{
+    padding-top: 10px;    
+    color: aliceblue;
+     
+       
+}
+ 
+#valuepropositions.container{
+    padding-top: 10px;
+    padding-bottom: 100px;
+    /*background-color: red;*/
+    border-radius: 15px;
+    height: 250px;
+    margin-top: 10px;
+    width:90%;
+   
+}
+.slider{
+    background-color: #09BB00;
+    border-radius:15px ;
+   
+   
+   
+}
+ 
+#valuepropositions ul{
+    list-style: none;
+    width: inherit;
+    height: inherit;
+}
+ 
+ul.slider{
+   
+    position: relative;
+    width: 800px;
+    height: inherit;
+   
+}
+ 
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    padding: 50px;
+    border-radius: 15px;
+    transition:opacity 1s ;
+   
+   
+}
+ 
+ul.slider li.propositions{
+    /*width: 100%;
+    height: 100%;*/
+}
+ 
+ul.slider li:first-child{
+    opacity: 1;
+}
+ 
+ul.slider li:target{
+ 
+    opacity: 1;
+   
+}
+#slide-1{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/slide-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+    padding-top: 80px;
+}
+ 
+#slide-2{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/slide-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+    padding-top: 100px;
+}
+ 
+#slide-3{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/slide-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+    padding-top: 100px;
+}
+ 
+#slide-4{
+    background-image: linear-gradient(
+        180deg,
+ 
+        #090909ce,#090909ce
+    )
+    ,url("media/images/strategie-5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+    padding-top: 100px;
+}
+ 
+#menu{
+    padding: 10px;
+    text-align: center;
+    margin-top: 90px;
+ 
+}
+ 
+#menu li{
+ 
+    display: inline-block;
+    text-align: center;
+}
+ 
+#menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color:#3b0d9e9a;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+ 
+#menu ul{
+    list-style: none;
+}
+ 
+#menu li:hover{
+   
+    transform:  scale(1.205);
+    transition: all 0.3s;
+    position: static;
+}
+ 
+#menu li a:active{
+    background-color:#5a1ae3;
+    transition: all 1s;
+}
+ 
+ 
+ 
+
+
+    
+}
+
+@media(max-width: 315px){
+    #hero{
+        
+        font-size: 1em;
+       
+    }
+}
+
+.creado_por{
+    font-size: .6em;
+    font-style: italic;
+    
+}
+ 
+
+
+
+#gallery .container{
+    padding: 100px 0px;
+    text-align: center;
+
+    color:aliceblue;
+
+
+}
+
+#gallery{
+    
+
+   
+}
+
+#gallery h2{
+    margin-top: 0;
+    color: aliceblue;
+    margin-bottom: 100px;
+}
+
+#gallery .cartaab{
+  color: aliceblue;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 2px 9px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+.contenedor-images{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    position: static;
+}
+
+.contenedor-images .foto{
+    width: 32%;
+    position:relative;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,.75);
+    border-radius: 15px;
+}
+
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #3B0D9E;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    overflow: hidden;
+    border-radius: 15px;
+    
+}
+
+.overlay h3{
+    
+    position: absolute;
+    
+    text-align: center;
+    transform: translate(-50% -50%);
+    
+    
+
+}
+
+.foto:hover .overlay{
+    height: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1000px){
+    .contenedor-images{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .contenedor-images{
+        width: 90%;
+    }
+    .contenedor-images .foto{
+        width: 48%;
+    }
+    video{
+
+    }
+}
+
+@media screen and (max-width:500px){
+    h3{
+        font-size: 22px;
+    }
+    .contenedor-images{
+        width: 98%;
+    }
+    .contenedor-images .foto{
+        width: 80%;
+    }
+}
